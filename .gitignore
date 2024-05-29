@@ -21,3 +21,19 @@ Homestead.yaml
 Homestead.json
 /.vagrant
 .phpunit.result.cache
+
+# Ionic specific exclusions
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Capacitor
+ios/
+android/
+build/
+
+# Ionic platforms
+.platforms/
+plugins/
+www/
+hooks/
